@@ -4,153 +4,208 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,intial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="descreption" content="front-end developer potfolio" />
+        <meta name="descreption" content="full stack developer potfolio" />
         <meta name="author" content="riad felih" />
-        <script defer src="https://kit.fontawesome.com/1ef1b3e9cf.js"
-        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/normalize.css"/>
         <link rel="stylesheet" href="./css/global.css" />
         <link rel="stylesheet" href="./css/header.css" />
+        <script src="https://kit.fontawesome.com/1ef1b3e9cf.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/others.css" />
         <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
         <title>RiadDev</title>
     </head>
     <body>
         <header class="main-header">
-            <h2 class="logo">
-                RiadDev
-            </h2>
             <nav class="nav-bar">
                 <ul class="nav-bar__list">
                     <li class="nav-bar__item">
-                        <a href="#" class="current nav-bar__link">Home</a>
+                        <a href="#" class="current nav-bar__link">Me</a>
                     </li>
                     <li class="nav-bar__item">
                         <a href="#projects" class="nav-bar__link">Projects</a>
-                    </li>
-                    <li class="nav-bar__item">
-                        <a href="#main-footer" class="nav-bar__link">Contact Me</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main class="main-content">
            <section class="intro">
-                <img class="intro__img" src="./images/responsive.webp" />
                <section class="intro__desc">
-                    <h1 class="intro__heading">
-                        Ready to turn you design to responsive
-                        web page 
-                    </h1>
+                    <h3 class="intro__heading">
+                        full stack web dev
+                    </h3>
                     <p>
-                        I'm a front-end web developer who have done several 
-                        <a href="" class="link">Projects</a> with the basic 
-                        tools HTML5,CSS3 and vanila JAVASCRIPT, where I turn 
-                        the web desing into real responsive web page code. 
+                        i'am felih riad, a full stack web developer , i can develop responsive and modern websites.
+                    </p>
+                    <h3 class="intro__heading">
+                        education
+                    </h3>
+                    <p>
+                        i am currently at 3rd year of university, i'am an IT student (netwoking and telecomunications).
+                        <br/>
+                        i studied web programing in university, plus self thought and online courses.
+                        <br/>
+                        i speak 3 languages arabic(native), french(2nd language) and english.
                     </p>
                </section>
+               <img src="./images/me.jpg" class="intro__img" alt="man illustartion" />
            </section>
-           <section class="skills">
-                <section class="skills__wraper">
-                    <ul class="skills__list">
-                        <li class="skills__item">
-                            <h1 class="skills__heading">Skills</h1>
-                        </li>
-                        <li class="skills__item">
-                        <i class="fas fa-check"></i>  HTML5
-                        </li>
-                        <li class="skills__item">
-                        <i class="fas fa-check"></i>  CSS3
-                        </li>
-                        <li class="skills__item">
-                        <i class="fas fa-check"></i>  JavaScript & ES6
-                        </li>
-                        <li class="skills__item">
-                        <i class="fas fa-check"></i>  responsive web desing
-                        </li>
-                        <li class="skills__item">
-                        <i class="fas fa-check"></i> git & github
-                        </li>
-                        <li class="skills__item">
-                        <i class="fas fa-check"></i>  HTTP and working with 
-                        APIs and JSON
-                        </li>
-                    </ul>
-                    <img src="./images/logo.webp" class="skills__img" />
-                </section>
+
+            <h3>skills</h3>
+            <section class="skills">
+                <article class="skill">
+                    <img src="./images/front-end.svg" class="skill__img" />
+                    <h4 class="center">front-end</h4>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> HTML5
+                    </div> 
+                    <div>
+                        <i class="fa-solid fa-circle"></i> CSS3
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> JavaScript/JS6
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> React.js
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> Next.js
+                    </div>
+                </article>
+
+                <article class="skill">
+                    <img src="./images/server.svg" class="skill__img" />
+                    <h4 class="center">back-end</h4>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> PHP
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> Laravel
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> MySQL & SQL
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> Database Design
+                    </div>
+                </article>
+
+                <article class="skill">
+                    <img src="./images/code.svg" class="skill__img" />
+                    <h4 class="center">tools & others</h4>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> Http(s)
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> git & github
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> Networking
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle"></i> APIs
+                    </div>
+                </article>
             </section>
-            <section class="Projects" id="projects">          
-                <h1>Projects</h1>
-                <section class="projects__intro">
-                    <h3>Front-end mentor projects/challenges</h3>
-                    <p>front-end mentor is website where front-end students 
-                        build real life projects by taking the design in image
-                        or figma file, and develop the webpage.<br/>
-                        here are some projects that i have done to give an 
-                        idea of what i am capable of
+            <h3 id="projects">projects</h3>
+            <h4>full stack projects</h4>
+            <section class="projects">
+                <article class="project">
+                    <img class="project__img" src="./images/responsive.svg" />
+                    <h4>project title</h4>
+                    <p>
+                        orem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Doloribus animi labore
+                        ipsum omnis ea soluta mollitia commodi
+                        eius rem ad.
                     </p>
-                </section>
-                <section class="projects__wraper">
-                    <article class="project">
-                        <img class="project__img" src="./images/countries.webp"/>
-                        <h2 class="project__heading">
-                            countries API
-                        </h2>
-                        <div><a href="https://countries-api99.netlify.app/"
-                             class="project__link">live site</a></div>
-                        <div><a href="https://github.com/riad-999/countries-API"
-                             class="project__link">github repo</a>
-                        </div>
-                        <div><a 
-                            href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
-                            class="project__link">front-end mentor challenge</a></div>
-                    </article>
-                    <article class="project">
-                        <img class="project__img" src="./images/bookmark.webp" />
-                        <h2 class="project__heading">
-                            Bookmark
-                        </h2>
-                        <div><a href="https://bookmark999.netlify.app/"
-                                class="project__link">live site</a>
-                        </div>
-                        <div><a href="https://github.com/riad-999/bookmark" 
-                            class="project__link">github repo</a>
-                        </div>
-                        <div><a 
-                            href="https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158" 
-                            class="project__link">front-end mentor challenge</a>
-                        </div>
-                    </article>
-                    <article class="project">
-                        <img class="project__img" src="./images/manage.webp" />
-                        <h2 class="project__heading">
-                            Manage
-                        </h2>
-                        <div><a href="https://manageclone.netlify.app/"
-                             class="project__link">live site</a>
-                            </div>
-                        <div><a href="https://github.com/riad-999/Manage"
-                             class="project__link">github repo</a>
-                            </div>
-                        <div><a 
-                            href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5" 
-                            class="project__link">front-end mentor challenge</a>
-                        </div>
-                    </article>
-                </section>
+                    <button class="btn">live site</button>
+                    <button class="btn">gihub repo</button>
+                </article>
+
+                <article class="project">
+                    <img class="project__img" src="./images/readdaily.png" />
+                    <h4>blog site</h4>
+                    <p>
+                        blog site where an admin can operate CRUD operations on articles,
+                        this is vannila projects, no framworks.
+                        <div class="blue">PHP, JS, CSS</div>
+                    </p>
+                    <button class="btn">
+                        <a href="http://readdaily.epizy.com" target="readdaily">live site</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/riad-999/blog-site" target="raeddaily-repo">gihub repo</a>
+                    </button>
+                </article>
+            </section>
+
+            <h4>front-end projects</h4>
+            <section class="projects">
+                <article class="project">
+                    <img class="project__img" src="./images/countries.webp" />
+                    <h4>countries API</h4>
+                    <p>
+                        this is a <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca" target="contiries-chanllenge" class="blue">
+                        front-end mentor chalenge</a> where a an API is given to consume, the API offers data about world controies
+                    <div class="blue">HTML, CSS, JS</div>
+                    </p>
+                    <button class="btn">
+                        <a href="https://countries-api99.netlify.app/" target="contiries">live site</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/riad-999/countries-API" target="countries-repo">gihub repo</a>
+                    </button>
+                </article>
+            
+                <article class="project">
+                    <img class="project__img" src="./images/bookmark.webp" />
+                    <h4>bookmark template</h4>
+                    <p>
+                        this is a <a href="https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158" target="bookmark-chanllenge" class="blue">
+                        front-end mentor chalenge</a> where your are given images/figma designs you need to 
+                        converte theme into code.
+                        <div class="blue">HTML, CSS, JS</div>
+                    </p>
+                    <button class="btn">
+                        <a href="https://bookmark999.netlify.app/" target="bookmark">live site</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/riad-999/bookmark" target="bookmark-repo">gihub repo</a>
+                    </button>
+                </article>
+
+                <article class="project">
+                    <img class="project__img" src="./images/manage.webp" />
+                    <h4>manage template</h4>
+                    <p>
+                        this is a <a href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5" target="manage-chanllenge" class="blue">
+                        front-end mentor chalenge</a> where your are given images/figma designs you need to
+                        converte theme into code.
+                    <div class="blue">HTML, CSS, JS</div>
+                    </p>
+                    <button class="btn">
+                        <a href="https://manageclone.netlify.app/" target="manage">live site</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/riad-999/Manage" target="manage-repo">gihub repo</a>
+                    </button>
+                </article>
             </section>
         </main>
+
+
+
         <footer class="main-footer" id="main-footer">
             <div class="email">
                 <i class="far fa-envelope"></i> 
                 felihriad5@gmail.com
             </div>
             <section class="social">
-                <a href="https://www.instagram.com/riadfelih/" 
+                <a href="https://www.instagram.com/riad0__/" 
                 class="fab fa-instagram"></a>
                 <a href="https://github.com/riad-999" 
                 class="fab fa-github"></a>
             </section>
-            <div class="copyright">certain images are from vecteezy.com</div>
         </footer>
     </body>
 </html>
